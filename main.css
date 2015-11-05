@@ -1,0 +1,215 @@
+/**********************************************
+GENERAL
+***********************************************/
+
+body{
+  font-family: 'Vollkorn', serif;
+  font-size: 1.25em;
+}
+
+a {
+  text-decoration:none;
+  }
+
+img{
+  max-width: 110%;
+  border: 5px solid #336633;
+  
+}
+
+/**********************************************
+HEADING
+***********************************************/
+
+header{
+  font-size: 1.35em;
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+}
+
+#logo {
+  text-align: left;
+  margin: 0 0;
+}
+
+/**********************************************
+NAVIGATION
+***********************************************/
+
+nav{
+  text-align: center;
+  padding: 0 0;
+  margin: 0 0;
+  width: auto;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/**********************************************
+FOOTER
+***********************************************/
+
+footer{
+  font-size: .50em;
+  text-align: right;
+  clear: both;
+  padding-top: 50px;
+  color: #FFFFC2;
+  text-shadow: 2px 2px #000;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+/**********************************************
+PAGE: INDEX
+***********************************************/
+
+.about{
+  font-size: 1.35em;
+  color: #FFFFC2;
+  text-align: left;
+  font-weight: bold;
+  padding: 3% 3%;
+  border-top: 10px solid #FFBA6B;
+  margin: 0 0;
+  background: url('../img/cardinal.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 50px 10px rgba(0,0,0, 1);  
+  border-radius: 10px;
+}
+
+.general{
+  font-size: 1.35em;
+  color: #FFFFC2;
+  text-align: left;
+  font-weight: bold;
+  padding: 3% 3%;
+  border-top: 10px solid #FFBA6B;
+  margin: 0 0;
+  background: #A34719 url('../img/hawk.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 50px 10px rgba(0,0,0, 1);  
+  border-radius: 10px;
+}
+
+.contact{
+  font-size: 1.35em;
+  color: #FFFFC2;
+  text-align: left;
+  font-weight: bold;
+  padding: 3% 3%;
+  border-top: 10px solid #FFBA6B;
+  margin: 0 0;
+  background: #A34719 url('../img/butterfly.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 50px 10px rgba(0,0,0, 1);  
+  border-radius: 10px;
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content, 
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+/**********************************************
+PAGE: SUPPORT
+***********************************************/
+
+/**********************************************
+PAGE: CONTACT
+***********************************************/
+
+.contact-info{
+  list-style: none;
+  padding: 0;
+  text-align: left; 
+  text-shadow: 2px 2px #000;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  color: #FFFFC2;
+ }
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+ }
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/facebook.png')
+}
+
+/**********************************************
+COLORS
+***********************************************/
+
+/*site body*/
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/*HEADER*/
+header {
+  background: #fff; 
+  border-color: #599a68;
+}
+
+/* NAV BACKGROUND ON MOBILE DEVICES*/
+nav{
+  background: #599a68
+}
+
+/* LOGO TEXT */
+h1, h2 {
+  color: #fff;
+}
+
+/* LINKS*/
+a {
+  color: #6ab47b; 
+}
+
+/* NAV LINK*/
+nav a, nav a:visited {
+  color: #6ab47b;; 
+}
+
+/* SELECTED NAV LINK */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
