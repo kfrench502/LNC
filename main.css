@@ -5,18 +5,12 @@ GENERAL
 body{
   font-family: 'Vollkorn', serif;
   font-size: 1.25em;
-}
-
-a {
-  text-decoration:none;
-  }
-
-img{
-  max-width: 110%;
-  border: 5px solid #336633;
-  
-}
-
+  background-image: url("http://www.torange.us/fx/18/18029/4-0-4-0-0-0.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+} 
 /**********************************************
 HEADING
 ***********************************************/
@@ -66,7 +60,7 @@ FOOTER
 ***********************************************/
 
 footer{
-  font-size: .50em;
+  font-size: .75em;
   text-align: right;
   clear: both;
   padding-top: 50px;
@@ -78,51 +72,94 @@ footer{
   width: 30px;
   height: 30px;
   margin: 0 5px;
+  background-color: #ffffe5;
 }
 
 /**********************************************
 PAGE: INDEX
 ***********************************************/
 .about{
-  font-size: 1.35em;
-  color: #FFFFC2;
+  font-size: 2em;
+  color: #6C3650;
   text-align: left;
   font-weight: bold;
-  padding: 10% 5%;
-  border-top: 10px solid #FFBA6B;
-  margin: 10 10;
-  background: url('../img/cardinal.jpg') center no-repeat;
-  background-size: cover;
-  box-shadow: inset 0px 0px 50px 10px rgba(0,0,0, 1);  
-  border-radius: 10px;
+  padding: 10% 5% 0% 5%;
+  margin: 0 0;
+  text-align: center;
 }
 
-.general{
-  font-size: 1.35em;
-  color: #FFFFC2;
+.col-md-4{
+  font-size: 1.55em;
+  color: #fff;
   text-align: left;
   font-weight: bold;
-  padding: 3% 3%;
-  border-top: 10px solid #FFBA6B;
-  margin: 0 0;
-  background: #A34719 url('../img/hawk.jpg') no-repeat center;
-  background-size: cover;
-  box-shadow: inset 0px 0px 50px 10px rgba(0,0,0, 1);  
-  border-radius: 10px;
+  padding: 1% 3%;
+  margin: 10px 0 15px;
+  box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
+  border-radius: 25px;
+  background-image: url("http://img00.deviantart.net/6ebe/i/2011/165/6/1/wood_grain_texture_3_by_fantasystock-d3iy1rp.jpg");
+  opacity: 0.95;
+  background-color: #000;
+}
+
+h2 {
+text-align: center;
 }
 
 .contact{
-  font-size: 1.35em;
-  color: #FFFFC2;
+  font-size: 1.75em;
+  color: #000;
   text-align: left;
   font-weight: bold;
-  padding: 3% 3%;
-  border-top: 10px solid #FFBA6B;
-  margin: 0 0;
-  background: #A34719 url('../img/butterfly.jpg') no-repeat center;
+  padding: 6% 6%;
+  margin: 25px 0 15px;
+  box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
+  border-radius: 25px;
+  background-image: url("http://img02.deviantart.net/56fa/i/2013/084/8/7/tree_bark_texture_by_photosammich-d5zazsu.jpg" );
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0px 0px 50px 10px rgba(0,0,0, 1);  
-  border-radius: 10px;
+}
+
+.section-photo {
+  clear: both;
+  display: block;
+  max-width: 15em;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  float: right;
+}
+
+.contact-info{
+  list-style: none;
+  padding: .75em;
+  text-align: left; 
+  background-color: #ffffe5;
+  opacity: .75;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 1.75em;
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  padding: 0 0 0 30px;
+  margin: 5px 5px;
+  color: #000;
+  background-color: #ffffe5;
+ }
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+  margin: 0 0 0 30px;
+  background-color: #ffffe5;
+}
+
+
+.contact-info li.facebook a {
+  background-image: url('../img/facebook.png');
+  margin: 0 0 0 25px;
+  background-color: #ffffe5;
 }
 
 /* Layout Styles ------------------ */
@@ -140,38 +177,6 @@ PAGE: INDEX
 PAGE: SUPPORT
 ***********************************************/
 
-/**********************************************
-PAGE: CONTACT
-***********************************************/
-
-.contact-info{
-  list-style: none;
-  padding: 0;
-  text-align: left; 
-  text-shadow: 2px 2px #000;
-}
-
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 35px 35px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-  color: #FFFFC2;
- }
-
-.contact-info li.phone a {
-  background-image: url('../img/phone.png');
- }
-
-.contact-info li.mail a {
-  background-image: url('../img/mail.png');
-}
-
-.contact-info li.facebook a {
-  background-image: url('../img/facebook.png')
-}
 
 /**********************************************
 COLORS
@@ -194,19 +199,19 @@ nav{
   background: #599a68
 }
 
-/* LOGO TEXT */
+/* COL TEXT */
 h1, h2 {
-  color: #fff;
+  color: #000;
 }
 
 /* LINKS*/
 a {
-  color: #6ab47b; 
+  color: #7eb48a; 
 }
 
 /* NAV LINK*/
 nav a, nav a:visited {
-  color: #6ab47b;; 
+  color: #aed0b6; 
 }
 
 /* SELECTED NAV LINK */
