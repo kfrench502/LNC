@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Gloria Hallelujah', cursive;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -3070,7 +3070,7 @@ fieldset[disabled] a.btn {
 .btn-default:hover {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: red;
 }
 .btn-default:active,
 .btn-default.active,
@@ -4037,7 +4037,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #ffffe5;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4053,7 +4053,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eee;
-  border-color: #337ab7;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4066,16 +4065,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs {
   padding: .75em;
-  border-bottom: 1px solid #7eb48a;
 }
 .nav-tabs > li {
   float: left;
 }
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 1.42857143;
+  line-height: 1.5;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
+  width: 17em;
 }
 .nav-tabs > li > a:hover {
   border-color: #eee #eee #ddd;
@@ -4083,9 +4082,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555;
+  color: #008B8B;
   cursor: default;
-  background-color: #fff;
+  background-color: #ffffe5;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
@@ -4130,14 +4129,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #fff;
+    border-bottom-color: #FFFFC2;
   }
 }
 .nav-pills > li {
   float: left;
+  display:inline-block ;
 }
 .nav-pills > li > a {
-  border-radius: 4px;
+  border-radius: 5px;
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -4145,8 +4145,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #337ab7;
+  color: #ffffe5;
+  background-color: SaddleBrown;
 }
 .nav-stacked > li {
   float: none;
@@ -4542,7 +4542,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: gold;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -4638,15 +4638,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+  background-color: gold;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #fff;
+  color: #FFFFC2;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
@@ -4663,7 +4662,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
+  color: #FFFFC2;
   background-color: #080808;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -4895,7 +4894,7 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  background-image: url("http://img11.deviantart.net/4e52/i/2011/310/b/9/a__tudyk_texture_stock_by_redwolf518stock-d4fdimx.jpg");
+  background-image: url("http://img02.deviantart.net/56fa/i/2013/084/8/7/tree_bark_texture_by_photosammich-d5zazsu.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #000;
@@ -4903,22 +4902,26 @@ a.badge:focus {
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  text-align: center;
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 1.25em;
   font-weight: bolder;
-  opacity: 1;
+  background-color: #ffffe5;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-  border-radius: 6px;
+  border-radius: 25px;
 }
 .jumbotron .container {
   max-width: 100%;
+  opacity: .8;
+  background-color: #ffffe5;
+  border-radius: 25px;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
@@ -4932,7 +4935,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 2.5em;
   }
 }
 .thumbnail {
@@ -6689,3 +6692,5 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+body { padding-top: 70px; }

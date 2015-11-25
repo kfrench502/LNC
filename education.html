@@ -2,60 +2,277 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Louisville Nature Center | Beargrass Creek State Nature Preserve</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-     <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0 ">
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    
-    <header>
-      <a href="index.html" id="logo">
-        <img src="http://www.louisvillenaturecenter.org/images/lnc_logo.gif" alt="LNC logo">
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="education.html" class="selected">Educational Opportunitites</a></li>
-          <li><a href="support.html">Support the LNC</a></li>
-          <li><a href="features.html">Features of the LNC</a></li>
-          <li><a href="newsletter.html">Newsletter Archive</a></li>
-         </ul>
-      </nav>
-    </header>
-    
-     <div class="about">  
-      <p style="text-align: center; text-size: 1.45em; text-shadow: 2px 2px #000;">What is the Louisville Nature Center?</p>
-      <p style="text-indent: 3em; text-align: center; text-size: 1.45em; text-shadow: 2px 2px #000;">A truly unique community resource, the Louisville Nature Center offers wonderful opportunities for nature study and recreation--right in the heart of the city! Bring a lunch and relax at our picnic tables or under the covered gazebo. 
-      <p style="text-indent: 3em; text-align: center; text-size: 1.45em; text-shadow: 2px 2px #000;">Among our unique features are: a native wildflower garden and pond, gardens that attract seasonal butterflies, hiking trails through the Beargrass Creek State Nature Preserve, a one-of-a-kind bird blind, wildlife exhibits, Beargrass Creek watershed exhibit, a meeting room, a nature gift shop, and our library--a great place to do research and spend some time indoors when the weather is too hot, too cold or rainy to study nature outside.
-       <p style="text-indent: 3em; text-align: center; text-size: 1.45em; text-shadow: 2px 2px #000;">Our mission is to provide nature education and encourage stewardship in an urban forest. We look forward to your visit!</p>
-        </div>
 
-      <div class="general">        
-       <p style="text-align: center; text-size: 1.45em; text-shadow: 2px 2px #000;"> General Information</p>
-        <p style="text-indent: 1em; text-shadow: 2px 2px #000;">Find us at 3745 Illinois Avenue, Louisville, Kentucky 40213 </p>
-        <p style="text-indent: 1em; text-shadow: 2px 2px #000;">Our Education Center hours are Monday-Saturday 9:00 a.m. to 4 p.m. </p>
-        <p style="text-indent: 1em; text-shadow: 2px 2px #000;">The Bird Blind is open Monday-Saturday 9:30 a.m. to 4 p.m.</p>
-        <p style="text-indent: 1em; text-shadow: 2px 2px #000;">We are closed on Sundays and Holidays.</p>
-        <p style="text-indent: 1em; text-shadow: 2px 2px #000;">LNC trails are open from sunrise to sunset every day!</p>
-        <p style="text-indent: 1em; text-shadow: 2px 2px #000;">Admission is FREE, but donations are always greatly appreciated! </p>
-          </div><!-- End .general -->
-      
-                    
-        <div class="contact"> 
-          <p style="text-align: center; text-size: 1.45em; text-shadow: 2px 2px #000;"> Contact Us</p>
-        <ul class="contact-info">
-          <li class="phone" ><a href="tel:502-123-4567">(502)458-1328</a></li>
-          <li class="mail"><a href="mailto:jwheatley@LouisvilleNatureCenter.org">To register for programs/events, schedule room rentals for group events, or for general questions | Office Manager - Jessica Wheatley</a></li>
-          <li class="mail"><a href="mailto:jgardner@LouisvilleNatureCenter.org">For information on birthday party programs, summer camps, or education programs | Education Coordinator - Judy Gardner </a></li>
-          <li class="mail"><a href="mailto:eblock@LouisvilleNatureCenter.org">For questions about billing and public media | Bookkeeper - Ellie Block </a></li>
-          <li class="mail"><a href="mailto:kmorris@LouisvilleNatureCenter.org">For information on volunteering with LNC or Eagle Scouts/Gold Award projects | Director - Kathy Morris   </a></li>
-          <li class="facebook"><a href="http://www.facebook.com/Louisville-Nature-Center-104585304681/info/?tab=page_info">Visit our Facebook page!</a></li>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header" role="navigation">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav nav-pills nav-justified" style="display:inline-block;">
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="education.html">Educational Opportunities <span class="sr-only">(current)</span></a></li>              
+        <li role="presentation"><a href="support.html">Support the LNC</a></li>
+        <li role="presentation"><a href="features.html">Features of the LNC</a></li>
+        <li role="presentation"><a href="newsletter.html">Newsletter Archive</a></li>
+      </ul>
+    </div> 
+  </nav>   
+        
+<!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+  </div>
+                
+<!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1><b>Plan your fall, winter, or spring field trip to Louisville Nature Center!</b></h1>
+      <p style="text-indent: 50px;">School classes, scouts, nature enthusiasts, senior citizens, and home-school groups are welcome to spend a couple of hours learning about the native flora and fauna of our area. Spots fill up quickly--often months in advance--so contact us early!</p>
+      <p style="text-indent: 50px;"> Many school groups visit the Louisville Nature Center and have a great time!
+All of our programs align to the Next Generation Science Standards.
+Cost is $7 per student.</p>
+      <p style="text-indent: 50px;">Programs will continue rain or shine, with alternative plans to stay indoors in case of inclement weather. Please come prepared to hike outdoors in the forest.</p>
+      <p style="text-indent: 50px;">All programs are 2 hours long (unless noted otherwise) and are aligned with the Core Content for Assessment Guidelines. The 2-hour program fee is $7 per student (teachers and adult chaperones are free).</p>
+      <p style="text-align: center;"><i>Teachers who are LNC members receive a $1 / student discount on visits to LNC.</i></p>
+      <p style="text-align: center;">LNC staff are always happy to work with you to design a program that meets your specific needs.</p> 
+      <p style="text-align: center;"><b>Cancellation Policy: Fees are not refunded if you cancel.</b></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="classb">
+      <div class="all-classes">
+        <ul class="birds">
+          <h1>BIRDS IN THE HOOD</h1>
+          <p style="color: red;">You won't need a pith helmet to explore the birds that live in the neighborhood! View wild birds and their unique adaptations up-close and personal in the bird blind. Take a 'binocular hike' to see where they live and participate in hands-on activities.
+      In this program students and LNC staff will:</p>
+            <ul type="disc">
+              <li>Kindergarten
+                <p style="color: red;">- Explain the basic needs of animals, including the need for living space/shelter (habitat). EP-3.4.1</p>
+                <p style="color: red;">- Classify animals based on different characteristics (e.g body coverings, body structures, habitats, behaviors.) EP-3.4.2</p></li>
+              <li>Grade 1
+                <p style="color: red;">- Identify basic parts of a plant. EP-3.4.3</p></li>
+              <li>Grade 2
+                <p style="color: red;">- Explain that different organisms have different life cycles. EP-3.4.4</p>
+                <p style="color: red;">- Describe the growth and development of familiar animals throughout their life cycle. EP-3.4.4</p>
+                <p style="color: red;">- Explain that offspring are very much, but not exactly like their parents or one another. 04-3.4.4</p></li>
+              <li>Grade 3
+                <p style="color: red;">- Classify organisms into groups based on characteristics such as body structures. EP-3.4.2,04-3.4.2</p>
+                <p style="color: red;">- Describe the cause and effect relationships existing between organisms and their environment. EP-4.7.1</p>
+                <p style="color: red;">- Make inferences about the relationships between external structures and their function in organisms. EP-04-3.4.1</p></li>
+              <li>Grade 4
+                  <p style="color: red;">- Describe and provide examples of physical or behavioral characteristics of plants and animals that make them better suited for survival in different environments. Identify characteristics that are inherited from their parents and others that are learned from interactions from the environment. 04-3.4.4</p></li>
+              <li>Grade 5
+                <p style="color: red;">- Predict an organism's response to an environmental stimulus based on its level of organization. 06-.3.4.2 </p></li>   
+            </ul>  
         </ul>
-      </section>
-       <footer>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">  
+    <div class="classl">
+      <div class="all-classes">
+        <ul class="legs">
+          <h1>HOW MANY LEGS?</h1>
+          <p style="color: #FF4500;"><i>"Help! I'm stuck and I don't have any legs!"</i> cried the snake. What would you do if you were that snake? Find out how animals go about their daily activities with 2, 4, 6, 100 or no legs. This program includes hands-on activities, a visit to the bird blind, and live organisms. In this program students and LNC staff will:</p>
+            <ul type="disc">
+              <li>Kindergarten
+                <p style="color: #FF4500;">- Classify animals based on different characteristics (e.g body coverings, body structures, habitats, behaviors.) EP-3.4.2</p></li>
+              <li>Grade 1
+                <p style="color: #FF4500;">- This program highlights plants used for food and shelter in the various animals habitat. Ask about our plant program for needs of plants, plant parts life, cycles, etc.</p></li>
+              <li>Grade 2
+                <p style="color: #FF4500;">- Explain that different organisms have different life cycles. EP-3.4.4</p></li>
+              <li>Grade 3
+                <p style="color: #FF4500;">- Classify organisms into groups based on characteristics such as body structures. EP-3.4.2,04-3.4.2</p>
+                <p style="color: #FF4500;">- Make inferences about the relationships between external structures and their function in organisms. EP-04-3.4.1</p></li>
+            </ul>
+          </ul>
+      </div>  
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="classa">
+      <div class="all-classes">
+        <ul class="animals">
+          <h1>ANIMALS IN MY BACKYARD</h1>
+          <p  style="color: #D2691E;">Lions and tigers and bears? Oh no! Foster your student's natural curiosity about the animals that live in urban habitats. This program includes a visit to the bird blind, a habitat hike, hands-on activities and may include live animal demonstrations (depending upon availability).
+  In this program students and LNC staff will:</p>
+            <ul type="disc">
+              <li>Kindergarten
+                <p style="color: #D2691E;">- Explain the basic need of animals. EP-3.4.1</p>
+                <p style="color: #D2691E;">- Classify animals based on different characteristics (e.g body coverings, body structures, habitats, behaviors.) EP-3.4.2</p></li>
+              <li>Grade 1
+                <p style="color: #D2691E;">- Ask about our Plant Parts Program</p></li>
+              <li>Grade 2
+                <p style="color: #D2691E;">- Explain that different organisms have different life cycles. EP-3.4.4</p>
+                <p style="color: #D2691E;">- Describe the growth and development of familiar animals throughout their life cycle. EP-3.4.4</p></li>
+              <li>Grade 3
+                <p style="color: #D2691E;">- Describe the cause and effect relationships existing between organisms and their environment. EP-4.7.1</p></li>
+              <li>Grade 4
+                <p style="color: #D2691E;">- Analyze patterns and make generalizations about the relationships between plants animals in a food chain. 04-4.6.1</p></li>
+              <li>Grade 5
+                <p style="color: #D2691E;">- Explain that all organisms have common characteristics. 05-3.5.2</p></li>                
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="classp">
+      <div class="all-classes">
+        <ul class="plant">      
+            <h1>PLANT PARTS</h1>
+            <p style="color: #4B0082;">If it's not an animal, it's most likely a plant! Students will observe and investigate the parts of a plant and the jobs they do. This is a hands-on activity, that also includes literature. In this program students and LNC staff will:</p>
+              <ul type="disc">
+                <li>Grades 1 & 2 
+                  <p style="color: #4B0082;">- Explain the basic needs of plants EP-3.4.1</p>
+                  <p style="color: #4B0082;">- Identify basic parts of plants</p></li>
+                <li>Grade 3
+                  <p style="color: #4B0082;">- Compare different structures of plants and animals that contribute to the growth, survival, and reproduction of the organisms. </p></li>
+              </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="container">
+    <div class="classd">
+      <div class="all-classes">
+        <ul class="dirt">
+          <h1>IT'S NOT JUST DIRT!</h1>
+          <p  style="color: SaddleBrown;">If that muddy stuff that forms the ground is not dirt then what is it? Find out as you dig deep to explore the processes of weathering and erosion in the Bear Grass Creek Nature Preserve. This program includes hands-on activities and a soil comparison hike.
+In this program students and LNC staff will:</p>
+            <ul type="disc">
+              <li>Kindergarten
+                <p style="color: SaddleBrown;">- Classify and describe objects made of different materials. EP-1.1.1</p>
+                <p style="color: SaddleBrown;">- Classify objects according to observable physical characteristics. EP-1.1.1, EP-1.1.2</p></li>
+              <li>Grade 1
+                <p style="color: SaddleBrown;">- Describe physical properties of solids. EP-1.1.2, EP-1.1.3</p></li>
+              <li>Grade 2
+                <p style="color: SaddleBrown;">- Describe and classify soil based on its physical properties. EP-2.3.1</p>
+                <p style="color: SaddleBrown;">- Explain that soil can be composed of humus and different sizes and amounts of rocks.</p> 
+                <p style="color: SaddleBrown;"></p></li>
+              <li>Grade 3
+                <p style="color: SaddleBrown;">- Explain the difference between a rock and a mineral.</p></li>
+              <li>Grades 4-8
+                Core Content: 
+                <p style="color: SaddleBrown;">- Students will describe and explain consequences of change to the surface of the Earth, including common fast changes and some common slow changes. SC-04-2.3.2</p>
+                <p style="color: SaddleBrown;">- Students will explain interactions of water with Earth materials and results of those interactions SC-05-2.3.2</p>
+                <p style="color: SaddleBrown;">- Students will explain cause and effect relationships in the Rock cycle.SC-06-2.3.2</p>
+                <p style="color: SaddleBrown;">- Students will compare will compare constuctive and destructive forces on Earth in order to make predictions about landforms SC-6.2.33</p>
+                <p style="color: SaddleBrown;">- Students will explain the layers of the Earth and their interactions SC-07-2.3.2, SC-08-2.3.2</p></li>   
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </div>  
+
+    <div class="container">
+    <div class="classt">
+      <div class="all-classes">
+        <ul class="trouble">
+          <h1>TROUBLE IN RIVER CITY</h1>
+          <p  style="color: DarkSlateGray;">There's trouble in River City and only you can help! The city is threatened by erosion of the river bank and your task is to decide how best to stabilize it. Using the RiverLab stream table students will observe how streams develop and conduct hands-on experiments on stream bank stabilization. Then go on a hike to observe stream development and erosion features in Beargrass Creek Nature Preserve.
+In this program students and LNC staff will:</p>
+            <ul type="disc">
+              <li>Grade 4
+                <p style="color: DarkSlateGray;">- Describe how waves, wind, water and ice erode rock and soil and deposit them in other areas. </p>
+                <p style="color: DarkSlateGray;">- Identify slow earth processes (i.e., erosion, weathering) and rapid processes (i.e. landslides, volcanic eruptions earthquakes) and describe the consequences of these processes. 04-2.3.2</p></li>
+              <li>Grade 5
+                <p style="color: DarkSlateGray;">- Explain how as water cycles, it interacts with Earth materials causing them to accumulate in lakes and oceans (rivers, streams,etc.). 05-2.3.2</p></li>  
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+      <div class="container">
+    <div class="classr">
+      <div class="all-classes">
+        <ul class="rocky">
+          <h1>A ROCKY WORLD</h1>
+          <p  style="color: SteelBlue ;">Rocks rock! Find out why when you investigate the properties of these earth materials and take a closer look at a variety of rocks. This program is a hands-on activity presented in your classroom! </p>
+            <ul type="disc">
+              <li>Grades Pre-K - 3
+                <p style="color: SteelBlue ;">Core Content: SC-EP-2.3.1 </p>
+                  <p><i>(Please note: this program is one-half hour long.)</i></p>  
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+        <div class="container">
+    <div class="classs">
+      <div class="all-classes">
+        <ul class="snail">
+          <h1>SNAIL PROGRAM</h1>
+          <p  style="color: DarkGoldenRod ;">What animal has a stomach that is also a foot? A snail! Find out how this is possible as you examine and observe a snail's basic structures and their uses. This program includes hands-on activities with live snails and is presented in your classroom! </p>
+            <ul type="disc">
+              <li>Grades Pre-K - 5
+                <p>Maximum: 1 classroom per program Subject: Adaptations Core Content SC-EP-3.4.3; SC-04-3.4, SC-04-3.4.3; SC-05-4.7.1</p>
+                  <p><i>(Please note: this program is one-half hour long.)</i></p>  
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+         <div class="container">
+    <div class="classsp">
+      <div class="all-classes">
+        <ul class="scouts">
+          <h1>SCOUT PROGRAMS</h1>
+          <p style="color: MediumVioletRed;">Louisville Nature Center offers a unique learning opportunity for all scout groups to experience nature in an interactive environment. Consider LNC when planning outings for your scout group or looking to fulfill badge requirements.
+Our scout programs provide a structured approach to earning a badge in a fun environment. Most programs offered allow the scouts to earn the badge in a single two-hour session. </p>
+            <h1>Boy Scouts</h1>
+            <p style="color: ForestGreen;">For Cub Scouts, LNC offers a program to help satisfy the requirements for their Bear rank. </p>
+            <p style="color: ForestGreen;">For Webelos, LNC offers a program for the Naturalist and Forester activity badges. </p>
+            <p style="color: ForestGreen;">For Boy Scouts, LNC offers programs for several merit badges including Bird Study, Nature and Environmental Science. </p>
+            <h1>Girl Scouts</h1>
+            <p style="color: Crimson;">For Brownies, LNC offers programs for badges including Animals, Eco-Explorer, and Watching Wildlife. </p>
+            <p style="color: Crimson;">For Junior Girl Scouts, LNC offers a program for the Earth Connections and Wildlife badges. </p>
+            <h1 style="text-decoration: none;">The cost of the Scout Program is $7 per scout. To schedule a scout program call LNC at (502) 458-1328. </h1>
+        </ul>
+      </div>
+    </div>
+  </div> 
+  
+  <div class="contact">
+    <footer>
+      <img alt="LNC logo" src="http://www.louisvillenaturecenter.org/images/lnc_logo.gif" style="float: left;">
         <a href="http://www.facebook.com/Louisville-Nature-Center-104585304681/info/?tab=page_info"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
         <p>&copy; 2015 Kathe French </p>
-      </footer>
+    </footer>
+  </div>
+</html>  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
