@@ -6,28 +6,12 @@ body{
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 1.5em;
   font-weight: bold;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/ed/Seneca-nature-trail_-_West_Virginia_-_ForestWander.jpg");
+  background-image: url("../img/trail.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 } 
-/**********************************************
-HEADING
-***********************************************/
-
-header{
-  font-size: 1.5em;
-  margin: 0 10px 0 0;
-  padding: 5px 5px;
-  width: 100%;
-  position: fixed;
-}
-
-#logo {
-  text-align: left;
-  margin: 0 0;
-}
 
 /**********************************************
 NAVIGATION
@@ -38,21 +22,19 @@ nav{
   padding: 0 0;
   margin: 0 0;
   width: auto;
-}
-
-nav ul{
   list-style: none;
-  margin: 0 10px;
-  padding: 0;
+  border-width:1px 0;
+  border:1px solid #ccc;
 }
 
 nav li{
-  display: inline-block;
+  display: inline;
 }
 
 nav a {
+  display: inline-block;
   font-weight: 800;
-  padding: 20px 20px;
+  padding: 10px;
 }
 
 /**********************************************
@@ -77,16 +59,17 @@ footer{
 /**********************************************
 PAGE: INDEX
 ***********************************************/
+
 .col-md-4{
-  font-size: 1.25em;
+  font-size: 1em;
   color: #fff;
-  text-align: left;
+  text-align: center;
   padding: 3% 3%;
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("http://img02.deviantart.net/56fa/i/2013/084/8/7/tree_bark_texture_by_photosammich-d5zazsu.jpg");
   font-weight: bold;
+  background-image: url("../img/tree_bark.jpg");
 }
 
 .general {
@@ -95,15 +78,21 @@ PAGE: INDEX
   background-size: 35px 35px;
   padding: 3% 3%;
   margin: 1em 1em;
+  box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   color: #000;
   background-color: #ffffe5;
   opacity: .8;
   border-radius: 25px;
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
+  background-size: cover;
  }
 
 .general a {
   color: red;
   text-shadow: 2px 2px gold;
+  text-align: center;
  }
 
 .video{
@@ -113,7 +102,7 @@ PAGE: INDEX
   padding: 3% 3%;
   margin: .5em 1em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1);
-  background-image: url("http://img02.deviantart.net/56fa/i/2013/084/8/7/tree_bark_texture_by_photosammich-d5zazsu.jpg");
+  background-image: url("../img/tree_bark.jpg");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,7 +121,7 @@ PAGE: INDEX
 }
 
 .contact{
-  font-size: 1.25em;
+  font-size: 1em;
   color: #000;
   text-align: left;
   font-weight: bold;
@@ -140,7 +129,7 @@ PAGE: INDEX
   margin: 1em 1em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("http://img02.deviantart.net/56fa/i/2013/084/8/7/tree_bark_texture_by_photosammich-d5zazsu.jpg");
+  background-image: url("../img/tree_bark.jpg");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,10 +139,26 @@ PAGE: INDEX
 .section-photo {
   clear: both;
   display: block;
-  max-width: 15em;
+  max-width: 22.5em;
   margin: 0 auto 30px;
-  border-radius: 50%;
+  border-radius: 75%;
   float: right;
+}
+
+.col-md-6{
+  font-size: 1.25em;
+  color: #fff;
+  text-align: left;
+  padding: 3% 3%;
+  margin: .25em 0em;
+  box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
+  border-radius: 25px;
+  background-image: url("../img/tree_bark.jpg");
+  font-weight: bold;
+}
+
+.col-md-6 li {
+  text-align: left;
 }
 
 .contact-info{
@@ -212,7 +217,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Northern_Cardinal_Male-27527.jpg");
+  background-image: url("../img/male_cardinal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% 25%;
@@ -226,7 +231,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("http://upload.wikimedia.org/wikipedia/commons/e/e0/Anterior_Median_and_Anterior_Lateral_Eyes_of_a_Phidippus_princeps_Jumping_Spider.jpg");
+  background-image: url("../img/spider");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 75% 75%;
@@ -240,7 +245,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7f/Fawn-in-grass.jpg");
+  background-image: url("../img/fawn.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 75% 75%;
@@ -254,7 +259,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Purpleflower_Violet.JPG");
+  background-image: url("../img/violets.JPG");
   background-repeat: no-repeat;
   background-position: 5% 15%;
   background-size: 100% 100%;
@@ -268,7 +273,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("http://img05.deviantart.net/a8ef/i/2013/166/6/a/god_made_dirt_and_dirt_don_t_hurt_by_otherworldartist-d696hwf.jpg");
+  background-image: url("../img/dirt.jpg");
   background-repeat: no-repeat;
   background-position: 5% 15%;
   background-size: 100% 100%;
@@ -282,7 +287,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("https://marycsmith.smugmug.com/Kentucky/Kentucky-Bluegrass/i-3bz8BvX/0/X2/IMG_7814c-X2.jpg");
+  background-image: url("../img/falls.jpg");
   background-repeat: no-repeat;
   background-position: 5% 15%;
   background-size: 100% 100%;
@@ -296,7 +301,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("http://orig04.deviantart.net/b17d/f/2009/196/6/d/blue_grey_stone_texture_by_dsibley.jpg");
+  background-image: url("../img/stone.jpg");
   background-repeat: no-repeat;
   background-position: 5% 15%;
   background-size: 100% 100%;
@@ -310,7 +315,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("http://i.telegraph.co.uk/multimedia/archive/02247/snail_2247464b.jpg");
+  background-image: url("../img/snail.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -324,7 +329,7 @@ PAGE: EDUCATION
   margin: .25em 0em;
   box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
   border-radius: 25px;
-  background-image: url("http://upload.wikimedia.org/wikipedia/commons/9/99/Girl_Scout_Patches.png");
+  background-image: url("../img/patches.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -342,6 +347,19 @@ PAGE: EDUCATION
   text-align: left;
 }
 
+.summer {
+  border-radius: 25px;
+  font-size: .85em;
+  text-align: left;
+  padding: 3% 3%;
+  margin: .25em 0em;
+  box-shadow: inset 0px 0px 15px 5px rgba(0,0,0, 1); 
+  border-radius: 75px;
+  background-image: url("../img/beargrasscreek.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 h1 {
 text-align: center;
 text-decoration: underline;
@@ -350,10 +368,15 @@ font-size: 1.5em;
 color: #000;
 }
 
+h2 {
+text-align: center;
+text-decoration: none;
+font-weight: bold;
+font-size: 1.5em;
+color: red;
+}
 
-/**********************************************
-PAGE: SUPPORT
-***********************************************/
+
 /**********************************************
 PAGE: FEATURES
 ***********************************************/
